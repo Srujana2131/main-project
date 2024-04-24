@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+<script src = "script.js">
+    let dad = {
+    amount:"150kr",
+    food:"chickenPizza",
+    restaurant: "Dominos",
+    fullName: function()
+     {
+    return "you are ordering "+ this.amount +" "+this.food+" "+ "from " + this.restaurant;
+    }
+    }
+    let mom = {
+    amount:"99kr",
+    food:"chickenBurger",
+    restaurant: "BoffBurger",
+    fullName: function() 
+    {
+    return "you are ordering "+ this.amount +" "+this.food+" "+ "from " + this.restaurant;
+    }
+    }
+    let kid = {
+    amount:"110kr",
+    food:"ChickenNuggets",
+    restaurant: "BurgerKing",
+    fullName: function() 
+    {
+    return "you are ordering "+ this.amount +" "+this.food+" "+ "from " + this.restaurant;
+    }
+    }
+    document.getElementById("demo").innerHTML = dad.fullName();
+    document.getElementById("demo1").innerHTML = mom.fullName();
+    document.getElementById("demo2").innerHTML = kid.fullName();
+    </script>
+</body>
+</html>

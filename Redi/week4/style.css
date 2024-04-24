@@ -1,0 +1,15 @@
+.myclass{
+    background-color:aqua ;
+    min-height: 100px;
+    max-width: 200px;
+}
+#first-class{
+background-color: yellowgreen;
+min-height: 100px;
+max-width: 200px;
+}
+div{
+    background-color: plum;
+    min-height: 100px;
+    max-width: 200px;
+}
