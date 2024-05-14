@@ -1,18 +1,3 @@
-/*let counter=0;
-function incrementButton(){
-    counter++;
-    document.getElementById("output").innerHTML=counter;
-}
-
-function decrementButton(){
-    counter--;
-    document.getElementById("output").innerHTML=counter;
-}
-
-function clearOutput(){
-    counter=0;
-    document.getElementById("output").innerHTML=counter;
-}*/
 let decreaseBtn = document.getElementById("decrement_button");
 let increaseBtn= document.getElementById("increment_button");
 let counter = document.getElementById("output");
@@ -20,10 +5,12 @@ let clear= document.getElementById("reset");
 let msg = "You have free shipping";
 let message = document.getElementById("msg").value;
 let count =0;
+decreaseBtn.disabled = true;
 decreaseBtn.addEventListener('click', ()=>{
     
-    if (count == 0) {
+    if (count <= 0) {
         decreaseBtn.disabled = true;
+        //alert("hi"+count);
         counter.innerHTML=count;
         
         
@@ -59,6 +46,8 @@ increaseBtn.addEventListener('click', ()=>{
 
 clear.addEventListener('click', ()=>{
     count=0;
+    decreaseBtn.disabled = true;
+    document.getElementById("increment_button").style.backgroundColor='rgb(0 0 0 / 7%)';
     document.getElementById('msg').style.display='none';
     counter.innerHTML=count;
     
