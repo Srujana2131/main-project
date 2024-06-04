@@ -1,0 +1,95 @@
+#output{
+    background-color: rgb(231 215 42 / 75%);
+    font-size: 70px;
+    width: 200px;
+    height: 225px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 18px;
+    border: none;
+    margin-left: 20px;
+    margin-top: 149px;
+    /**background:linear-gradient(45deg, rgb(231 215 42 / 27%), #ffd900, #4e8000a6);**/
+    background:linear-gradient(45deg, rgb(231 215 42 / 27%), #065b9b, #4e8000a6)
+    
+}
+
+#increment_button{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(0 0 0 / 7%);
+    font-size: x-large;
+    margin-left: 13px;
+    margin-top: 20px;
+}
+
+#decrement_button{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(0 0 0 / 7%);
+    font-size: x-large;
+    margin-left: 36px;
+    margin-top: 33px;
+}
+
+#reset{
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    border: none;
+    color: red;
+    background-color: rgb(0 0 0 / 7%);
+    font-size: x-large;
+    margin-left: 14px;
+    margin-top: 18px;
+}
+
+#main_div{
+    display: flex;
+    background: linear-gradient(to right, rgba(195 134 225 / 80%), rgba(0, 98, 185, 0.8)), url(./large-triangles.svg);;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;  
+    /**height: 100px;
+    width: 650px;**/
+    padding: 1rem 5rem;
+}
+.child1_div{
+    /**background-color: white;**/
+   /** height: 600px;**/
+    width: 410px;
+    font-size: 1rem;
+}
+.child2_div{
+    /**background-color: white;**/
+    height: 455px;
+    width: 520px;
+    position: absolute;
+    top: 40px;
+    left: 504px;
+    border-radius: 8px;
+}
+.msg_alignment{
+    width: 246px;
+}
+.cart_styling{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    color: red;
+    background-color: rgb(0 0 0 / 7%);
+    font-size: large;
+    margin-left: 85px;
+    margin-top: 18px;
+}
+.heading{
+    font-style: oblique;
+    text-align: center;
+}
+.img_styling{
+    border-radius: 18px;
+}
